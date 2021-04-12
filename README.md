@@ -19,3 +19,9 @@ At any point in time, one should be able to get the list of all bugs:
 1. Filed by the same person
 2. Have the same category
 3. Have the same status
+
+#Execution
+gcc -c client.c server.h
+gcc -c server.c server.h
+gcc -o a client.o server.o
+a
