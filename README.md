@@ -21,7 +21,7 @@ At any point in time, one should be able to get the list of all bugs:
 3. Have the same status
 
 ## Execution
-gcc -c client.c server.h
-gcc -c server.c server.h
-gcc -o a client.o server.o
-a
+1) gcc -c client.c server.h
+2) gcc -c server.c server.h
+3) gcc -o a client.o server.o
+4) a
